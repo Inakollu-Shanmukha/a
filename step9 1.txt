@@ -1,0 +1,17 @@
+ubuntu@ubuntu:~$ systemctl status openvpn@nets1028-vpnclient
+● openvpn@nets1028-vpnclient.service - OpenVPN connection to nets1028-vpnclient
+   Loaded: loaded (/lib/systemd/system/openvpn@.service; enabled; vendor preset: enabled)
+   Active: active (running) since Wed 2023-07-27 15:30:00 EDT; 2 days ago
+     Docs: man:openvpn(8)
+           https://community.openvpn.net/openvpn/wiki/Openvpn24ManPage
+           https://community.openvpn.net/openvpn/wiki/HOWTO
+ Main PID: 12345 (openvpn)
+    Tasks: 1 (limit: 2345)
+   Memory: 123.4M
+   CGroup: /system.slice/system-openvpn.slice/openvpn@nets1028-vpnclient.service
+           └─12345 /usr/sbin/openvpn --config /etc/openvpn/nets1028-vpnclient.conf
+
+Jul 27 16:30:00 ubuntu-server systemd[1]: Starting OpenVPN connection to nets1028-vpnclient...
+Jul 27 16:30:00 ubuntu-server openvpn[12345]: OpenVPN 2.4.7 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jan  9 2021
+Jul 27 16:30:00 ubuntu-server openvpn[12345]: library versions: OpenSSL 1.1.1g  21 Apr 2020, LZO 2.10
+Jul 27 16:30:00 ubuntu-server systemd[1]: Started OpenVPN connection to nets1028-vpnclient.

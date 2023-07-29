@@ -1,0 +1,16 @@
+ubuntu@ubuntu:~$ sudo cat /var/log/openvpn/openvpn-status.log
+OpenVPN CLIENT LIST
+Updated, Tue Jul 27 16:34:56 2023
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+JohnDoe,203.0.113.10:54321,123456,789012,Mon Jul 27 16:36:01 2023
+JaneSmith,198.51.100.20:12345,654321,210987,Tue Jul 27 16:36:45 2023
+
+ROUTING TABLE
+Virtual Address,Common Name,Real Address,Last Ref
+10.8.0.2,JohnDoe,203.0.113.10:54321,Mon Jul 27 16:36:01 2023
+10.8.0.3,JaneSmith,198.51.100.20:12345,Tue Jul 27 16:36:45 2023
+
+GLOBAL STATS
+Max bcast/mcast queue length,0
+END
+

@@ -1,0 +1,8 @@
+ubuntu@ubuntu:~$ sudo cat /var/log/openvpn/openvpn-status.log
+OpenVPN CLIENT LIST
+Updated, Thu Jul 27 2023 15:34:56
+
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+client1,203.0.113.1:55555,1234567,9876543,Thu Jul 27 2023 15:35:00
+client2,198.51.100.2:443,9876543,1234567,Thu Jul 27 2023 15:16:30
+client3,192.168.1.10:1194,7654321,5432198,Thu Jul 27 2023 15:16:05
